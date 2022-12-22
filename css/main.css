@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+  }
+
+  body{
+    background-color: black;
+  }
+  
+  
+  .container {
+      width: 1140px;
+      margin: 0 auto;
+  }
+  
+  .container h1 {
+      text-align: center;
+      margin-top: 70px;
+      color: white;
+
+  }
+  
+  .container p {
+      font-size: 18px;
+      text-align: center;
+      margin-top: 24px;
+      color: white;
+  }
+  
+  .flex {
+    width: 680px;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    margin: 63px auto;
+  }
+  
+  .type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: white;
+
+  }
+  
+  .color {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0071e3;
+  }
+  
+  .laptop_describtion {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .laptop_price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    cursor: pointer;
+    color: white;
+
+  }
+  
+  .btn-1 {
+    border-radius: 10px;
+    width: 155px;
+    height: 42px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    transition: 300ms;
+  }
+  
+  .btn-1:hover {
+    background: #0071e3;
+    color: #ffffff !important;
+  }
+  
+  .btn-2:hover {
+    background: #0071e3;
+    color: #ffffff !important;
+  }
+  
+  .btn-2 {
+    width: 155px;
+    height: 42px;
+  
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #797979;
+    transition: 300ms;
+  }
+  
+  .btn_color {
+    display: flex;
+    width: 321px;
+    height: 42px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .btn-common {
+    height: 57px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 17px 20px;
+    margin-bottom: 7px;
+    border: 2px solid #cfe7ff;
+    align-items: center;
+    transition: 200ms;
+  }
+  
+  .btn-common:hover {
+    border: 2px solid #007fff !important;
+  }
+  
+  .btn-common1 {
+    border: 2px solid #007fff !important;
+  }
+  
+  .right {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 2px;
+  }
+  
+  .btn_type {
+    width: 321px;
+    height: 250px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .blue_back {
+    background: #0071e3;
+  }
+  
+  .white_back {
+    background: #cfe7ff;
+  }
+  
+  .head {
+    background-color: black;
+    height: 45px;
+    max-width: 100%;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 247px;
+  }
+  
+  
+  .checkbox {
+    margin-bottom: 50px;
+    margin-left: 300px;
+    width: 52px;
+    height: 32px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    background-color: #49454f;
+    border-radius: 24px;
+    border: solid 2px #938f99;
+    transition:
+      border-color 200ms, background -color 200ms;
+    cursor: pointer;
+  }
+  
+  .checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 12px;
+    background-color: #938f99;
+    transition:
+      width 200ms, height 200ms, transform 200ms, background-color 200ms;
+  }
+  
+  .checkbox.on {
+    border-color:darkblue ;
+    background-color: darkblue;
+  }
+  
+  .checkbox.on::before {
+    background-color: #381e72;
+    width: 24px;
+    height: 24px;
+    transform: translate(18px);
+  }
